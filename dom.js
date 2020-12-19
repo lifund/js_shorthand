@@ -5,7 +5,7 @@ function classControls() {
         } else if(yourObj.className && yourObj.className.trim().split(/\s+/gi).indexOf(yourClass) > -1) {
             return true;
         } else {
-            return false;
+            return false; 
         }
     }
     this.addClass = function (yourObj, yourClass) {
